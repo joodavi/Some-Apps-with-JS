@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bin2Dec</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="box">
+      <div class="bin2dec">
+        <input type="text" id="binary" placeholder="Binary">
+        <button id="convert">Convert</button>
+        <p id="decimal">0</p>
+        <script src="./scripts/conversor.js"></script>
+      </div>
+    </div>
+    <div class="box" style="grid-column: 2;">
+      <div class="border-radius-previewer">
+        <div class="image">
+          <img src="../assets/img/mandalorian.jfif" alt="The mandalorian" id="img">
+        </div>
+        <div class="buttons-pixel">
+          <button id="5px">5px</button>
+          <button id="10px">10px</button>
+          <button id="25px">25px</button>
+          <button id="50px">50px</button>
+          <button id="100px">100px</button>
+        </div>
+        <div class="buttons-porct">
+          <button id="2%">2%</button>
+          <button id="5%">5%</button>
+          <button id="10%">10%</button>
+          <button id="25%">25%</button>
+          <button id="50%">50%</button>
+        </div>
+        <div class="button">
+          <button id="default">Default</button>
+        </div>
+        <div class="copyright">
+          <p class="gray">Illustration by Mark Akopov</p>
+          <a class="black" href="https://www.artstation.com/artwork/rRVR25" target="_blank" rel="noopener">https://www.artstation.com/artwork</a>
+        </div>
+        <script src="scripts/border-radius-previewer.js"></script>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
