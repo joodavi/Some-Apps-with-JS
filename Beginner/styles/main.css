@@ -32,7 +32,7 @@ h1 {
   margin-bottom: 8px;
 }
 
-.bin2dec > #binary {
+.bin2dec #binary {
   border: 1px solid #b6b6b6;
   border-radius: 4px;
   font-family: 'Roboto';
@@ -40,7 +40,7 @@ h1 {
   padding: 2px;
 }
 
-.bin2dec > #convert {
+.bin2dec #convert {
   background: #6bc46f;
   border: none;
   border-radius: 4px;
@@ -49,6 +49,7 @@ h1 {
   font-family: 'Roboto';
   font-size: 16px;
   margin-top: 15px;
+  outline: none;
   padding: 10px;
 
   transition: .2s;
@@ -58,7 +59,7 @@ h1 {
   background: #43b448;
 }
 
-.bin2dec > #decimal {
+.bin2dec #decimal {
   background: #f8f8f8;
   margin-top: 5px;
   padding: 10px;
@@ -74,6 +75,7 @@ h1 {
   border-radius: 4px;
   cursor: pointer;
   padding: 5px;
+  outline: none;
 
   transition: .2s;
 }
@@ -128,7 +130,7 @@ h1 {
     border: 5px solid #000;
     margin-bottom: 10px;
     padding: 10px;
-    height: 350px;
+    height: 380px;
     width: 100%;
   }
 }
