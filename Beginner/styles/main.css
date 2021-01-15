@@ -5,7 +5,7 @@
 }
 
 body {
-  background: linear-gradient(#91d45a, #156119);
+  background: linear-gradient(135deg, #96e456, #022404);
   border: 3px solid #000;
   font-family: 'Roboto';
   gap: 1px;
@@ -23,8 +23,13 @@ body {
   background: #fafafa;
   border: 5px solid #000;
   padding: 10px;
-  height: 300px;
+  height: 350px;
   width: 300px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 8px;
 }
 
 .bin2dec > #binary {
@@ -36,12 +41,21 @@ body {
 }
 
 .bin2dec > #convert {
-  background: #91d45a;
-  border: 1px solid #2e2e2e;
+  background: #6bc46f;
+  border: none;
   border-radius: 4px;
+  cursor: pointer;
   display: flex;
-  margin-top: 5px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-top: 15px;
   padding: 10px;
+
+  transition: .2s;
+}
+
+.bin2dec #convert:hover {
+  background: #43b448;
 }
 
 .bin2dec > #decimal {
@@ -71,31 +85,35 @@ body {
 .border-radius-previewer .buttons-pixel {
   display: flex;
   justify-content: space-between;
+  margin-top: 8px;
 }
 
 .border-radius-previewer .buttons-porct {
   display: flex;
   justify-content: space-between;
-  margin-top: 4px;
+  margin-top: 7px;
 }
 
 .border-radius-previewer .button {
   display: flex;
   justify-content: center;
-  margin-top: 4px;
+  margin-top: 6px;
 }
 
 .border-radius-previewer a,
 .border-radius-previewer p {
   font-size: 14px;
+  text-align: right;
 }
 .border-radius-previewer .gray {
   color: #828282;
-  margin-top: 4px;
+  margin-top: 10px;
 }
 
 .border-radius-previewer a {
   color: #43b448;
+  display: flex;
+  justify-content: right;
   text-decoration: none;
 }
 
@@ -110,8 +128,8 @@ body {
     border: 5px solid #000;
     margin-bottom: 10px;
     padding: 10px;
-    height: 320px;
-    width: 330px;
+    height: 350px;
+    width: 100%;
   }
 }
 
