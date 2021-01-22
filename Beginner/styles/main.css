@@ -161,6 +161,10 @@ h1 {
 .buttons-calculator .box-green {
   background: #6bc46f;
   border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 100;
   height: 34px;
 }
 
