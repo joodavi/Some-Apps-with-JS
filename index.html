@@ -19,7 +19,7 @@
         <script src="./Beginner/scripts/conversor.js"></script>
       </div>
     </div>
-    <div class="box" style="grid-column: 2;">
+    <div class="box">
       <div class="border-radius-previewer">
         <h1>Border Radius Previewer</h1>
         <div class="image">
@@ -49,38 +49,37 @@
         <script src="./Beginner/scripts/border-radius-previewer.js"></script>
       </div>
     </div>
-    <!-- <div class="box" style="grid-column: 3;">
+    <div class="box">
       <div class="calculator">
         <h1>Calculator</h1>
         <div class="output">
-          <div data-previous-operand class="previous-operand"></div>
-          <div data-current-operand class="current-operand"></div>
+          <div data-previous-operand id="previous-operand"></div>
+          <div data-current-operand id="current-operand"></div>
         </div>
         <div class="buttons-calculator">
-          <button data-operation>+/-</button>
-          <button data-delete>C</button>
-          <button data-deleteAll>AC</button>
-          <div class="box-green"></div>
-          <button data-number>7</button>
-          <button data-number>8</button>
-          <button data-number>9</button>
-          <button data-operation>/</button>
-          <button data-number>4</button>
-          <button data-number>5</button>
-          <button data-number>6</button>
-          <button data-operation>X</button>
-          <button data-number>3</button>
-          <button data-number>2</button>
-          <button data-number>1</button>
-          <button data-operation>-</button>
-          <button data-equals>=</button>
-          <button data-number>0</button>
-          <button data-number>.</button>
-          <button data-operation>+</button>
+          <button onClick="calculator('action', '+/-')">+/-</button>
+          <button onClick="calculator('action', 'ac')">AC</button>
+          <div class="box-green" style="grid-column: 3 / 5"></div>
+          <button onClick="calculator('number', '7')">7</button>
+          <button onClick="calculator('number', '8')">8</button>
+          <button onClick="calculator('number', '9')">9</button>
+          <button onClick="calculator('action', '/')">/</button>
+          <button onClick="calculator('number', '4')">4</button>
+          <button onClick="calculator('number', '5')">5</button>
+          <button onClick="calculator('number', '6')">6</button>
+          <button onClick="calculator('action', '*')">*</button>
+          <button onClick="calculator('number', '3')">3</button>
+          <button onClick="calculator('number', '2')">2</button>
+          <button onClick="calculator('number', '1')">1</button>
+          <button onClick="calculator('action', '-')">-</button>
+          <button onClick="calculator('action', '=')">=</button>
+          <button onClick="calculator('number', '0')">0</button>
+          <button onClick="calculator('number', '.')">.</button>
+          <button onClick="calculator('action', '+')">+</button>
         </div>
       </div>
       <script src="/Beginner/scripts/calculator.js"></script>
-    </div> -->
+    </div>
     <div class="box">
       <div class="selector">
         <h1>Selector</h1>

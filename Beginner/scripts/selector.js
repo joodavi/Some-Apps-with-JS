@@ -16,11 +16,11 @@ function charSelector() {
     case '7':
     case '8': 
     case '9':
-      document.getElementById('numbers').value = character;
+      document.getElementById('numbers').value += character;
       break;
     
     default: 
-      document.getElementById('letters').value = character;
+      document.getElementById('letters').value += character;
 
   }
 }
